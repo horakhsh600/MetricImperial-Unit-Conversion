@@ -59,5 +59,21 @@ btn.addEventListener("click", function () {
   numTotalF3.textContent = totalfahrenheits;
 });
 clearBtn.addEventListener("click", function () {
-  location.reload();
+  inputFeild.value = null;
+  inpNumM.textContent = null;
+  inpNumF.textContent = null;
+  inpNumL.textContent = null;
+  inpNumG.textContent = null;
+  inpNumK.textContent = null;
+  inpNumP.textContent = null;
+  inpNumC.textContent = null;
+  inpNumF2.textContent = null;
+  numTotalM.textContent = null;
+  numTotalF.textContent = null;
+  numTotalL.textContent = null;
+  numTotalG.textContent = null;
+  numTotalK.textContent = null;
+  numTotalP.textContent = null;
+  numTotalC.textContent = null;
+  numTotalF3.textContent = null;
 });
